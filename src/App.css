@@ -1,0 +1,4 @@
+.default:hover {
+ background-color: #f7f7f7;
+ transition: background-color 0.3s;
+}
