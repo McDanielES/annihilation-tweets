@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Tweet from './Tweet';
-// import { readString } from 'react-papaparse';
-// import dataFile from './TestCSV.js';
 import Data from './Data';
 
 class Stream extends Component {
@@ -41,10 +39,8 @@ class Stream extends Component {
         likes: 12700
       };
       
-      // const results = readString(dataFile, config);
-      // console.log(results);
       const data = Data;
-      console.log(data);
+      console.log(data[0]);
 
 
 

@@ -23,7 +23,8 @@ const tweetData = data.map( (data)  => {
       likes: data.likes
     }
     return (
-    <FakeTweet config={tweetConfiguration}/>
-  );
+      <FakeTweet config={tweetConfiguration}/>
+    );
 });
+
 export default tweetData;
