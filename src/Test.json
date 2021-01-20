@@ -1,0 +1,53 @@
+[
+  {
+    "user": {
+      "nickname": "biologist",
+      "name": "biologist",
+      "avatar": "favicon.ico",
+      "verified": true,
+      "locked": false
+    },
+    "display": "default",
+    "text": "Look at this doe",
+    "image": "https://www.ericmcd.com/imgs/kevin.jpg",
+    "date": "3:32 PM · Feb 14, 1997",
+    "app": "Twitter for iPhone",
+    "retweets": 32674,
+    "quotedTweets": 1597,
+    "likes": 12700
+  },
+  {
+    "user": {
+      "nickname": "biologist",
+      "name": "biologist",
+      "avatar": "favicon.ico",
+      "verified": true,
+      "locked": false
+    },
+    "display": "default",
+    "text": "Let's get to business",
+    "image": "",
+    "date": "4:21 PM · Feb 14, 1997",
+    "app": "Twitter for Android",
+    "retweets": 3174,
+    "quotedTweets": 197,
+    "likes": 13100
+  },
+  {
+    "user": {
+      "nickname": "biologist",
+      "name": "biologist",
+      "avatar": "favicon.ico",
+      "verified": true,
+      "locked": false
+    },
+    "display": "default",
+    "text": "I'm really gamling here",
+    "image": "",
+    "date": "5:47 PM · Feb 14, 1997",
+    "app": "Twitter for Android",
+    "retweets": 2174,
+    "quotedTweets": 95,
+    "likes": 205
+  }
+]
