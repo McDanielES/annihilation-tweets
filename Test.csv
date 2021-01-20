@@ -1,0 +1,10 @@
+user.nickname,user.name,user.avatar,user.verified,user.locked,display,text,image,date,app,retweets,quotedTweets,likes,key
+biologist_adventurer,biologist,biologist-icon.png,true,false,default,Test 1,https://www.ericmcd.com/imgs/kevin.jpg,"3:32 PM · Feb 14, 1997",Twitter for iPhone,4322,41,5432,0
+biologist_adventurer,biologist,biologist-icon.png,true,false,default,Test 2,,"3:32 PM · Feb 14, 1998",Twitter for iPhone,5435,654,4545,1
+biologist_adventurer,biologist,biologist-icon.png,true,false,default,Test 3,,"3:32 PM · Feb 14, 1999",Twitter for iPhone,543,1,654,2
+biologist_adventurer,biologist,biologist-icon.png,true,false,default,Test 4,,"3:32 PM · Feb 14, 2000",Twitter for iPhone,5435,13,5435,3
+biologist_adventurer,biologist,biologist-icon.png,true,false,default,Test 5,biologist-icon.png,"3:32 PM · Feb 14, 2001",Twitter for iPhone,7654,445,5345,4
+biologist_adventurer,biologist,biologist-icon.png,true,false,default,Test 6,,"3:32 PM · Feb 14, 2002",Twitter for iPhone,151,34,10154,5
+biologist_adventurer,biologist,biologist-icon.png,true,false,default,Test 7,,"3:32 PM · Feb 14, 2003",Twitter for iPhone,62,23,434,6
+biologist_adventurer,biologist,biologist-icon.png,true,false,default,Test 8,,"3:32 PM · Feb 14, 2004",Twitter for iPhone,7663,564,1005,7
+biologist_adventurer,biologist,biologist-icon.png,true,false,default,Test 9,,"3:32 PM · Feb 14, 2005",Twitter for iPhone,131,23,549,8
