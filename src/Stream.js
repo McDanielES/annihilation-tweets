@@ -11,7 +11,7 @@ class Stream extends Component {
     });
 
     return(
-      <div>
+      <div className="mt-4">
         { tweetStream }
       </div>
     );
