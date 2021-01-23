@@ -1,4 +1,47 @@
+@import url("https://use.fontawesome.com/releases/v5.11.2/css/all.css");
+
 .default:hover {
  background-color: #f7f7f7;
- transition: background-color 0.3s;
+ transition: background-color 0.4s;
+}
+
+.tweet {
+  width: 100% !important;
+}
+
+.Navigation-logo { height: 40px !important;}
+.Navigation-links {
+  font-size: 19px;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 25px;
+  transition: background-color 0.1s, color 0.1s;
+  cursor: pointer;
+}
+
+.Navigation-links:hover {
+  background-color: #e8f5fe;
+  color: #4496cb;
+}
+
+i {
+  font-size: 22px;
+}
+
+.btn-primary, .btn-primary:focus {
+  color: #ffffff;
+  background-color: #1da1f3;
+  width: 100%;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 12px;
+}
+
+.btn-primary:hover {
+  background-color: #1d91db;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus{
+  outline:none;
+  box-shadow:none;
 }
