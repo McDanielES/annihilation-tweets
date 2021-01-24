@@ -23,11 +23,11 @@ class Curator extends Component {
   render () {
     return (
       <div>
-        <div onClick={this.handleOpenModal} className="row mr-3 Navigation-links Navigation-footer">
+        <div onClick={this.handleOpenModal} className="row mr-0 Navigation-links Navigation-footer">
           <div className="col-1">
             <i className="fas fa-book"></i>
           </div>
-          <div className="col ml-2">
+          <div className="col ml-3 px-0">
             <button><strong>View Curator's Essay</strong></button>
           </div>
         </div>

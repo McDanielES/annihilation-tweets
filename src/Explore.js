@@ -41,7 +41,7 @@ class Explore extends Component {
         <div className="col-xl-8 col-lg-10 col-md-11 mt-4 Explore-blocks">
           <p className="ml-2 mb-1"><strong>Who to follow</strong></p>
           <hr className="m-2" />
-          <div className="row">
+          <div className="row pb-1">
             <div className="col-2">
               <div className="avatar-container">
                 <img src="biologist-icon.png" className="avatar" alt="Biologist icon" />
@@ -68,8 +68,8 @@ class Explore extends Component {
               <button className="btn btn-outline-primary px-3 py-1 ml-0 mt-1">Follow</button>
             </div>
           </div>
-          <hr />
-          <div className="row">
+          <hr className="m-1 p-1" />
+          <div className="row pt-1">
             <div className="col-2">
               <div className="avatar-container">
                 <img src="biologist-icon.png" className="avatar" alt="Biologist icon" />
@@ -98,7 +98,7 @@ class Explore extends Component {
           </div>
         </div>
         <div className="col-xl-8 col-lg-10 col-md-11 mt-4 mx-2">
-          <small className="Explore-light">Terms of Service &bull; Privacy Policy &bull; Cookie Policy &bull; Ads<br/><br />This is part of the Ghost Museum Final Project by Eric McDaniel for the University of Wisconsin- Madison's English 167, as a part of a literary analysis of Jeff Vandermeer's <a href="https://www.jeffvandermeer.com/book/annihilation/"><em>Annihilation</em></a></small>
+          <small className="Explore-light">Terms of Service &bull; Privacy Policy &bull; Cookie Policy &bull; Ads<br/><br />This is part of the Ghost Museum Final Project by Eric McDaniel for the University of Wisconsin- Madison's English 167, as a part of a literary analysis of Jeff Vandermeer's <a href="https://www.jeffvandermeer.com/book/annihilation/"><em>Annihilation</em></a>. The source code for this project can be viewed <a href="https://github.com/McDanielES/annihilation-tweets">here</a>.</small>
         </div>
       </div>
     );
