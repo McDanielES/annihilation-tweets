@@ -38,11 +38,18 @@
 i {
   font-size: 22px;
 }
+button {
+  border: inherit;
+  background: inherit;
+  color: inherit;
+}
 
 a, a:hover {
   text-decoration: none;
   color: inherit;
 }
+small a { text-decoration: underline; }
+small a:hover { background-color: #00000022; }
 
 .Explore-blocks {
   background-color: #f8f9fb;
@@ -85,18 +92,27 @@ input { width: 100%; }
   overflow: hidden;
 }
 
-.Explore-trending-article, p:hover {
+
+.Explore-trending-article{
   cursor: pointer;
 }
 
-.btn-primary, .btn-primary:focus {
-  color: #ffffff;
-  background-color: #1da1f3;
+.btn {
   width: 100%;
   border-radius: 30px;
   margin: 20px;
   padding: 12px;
 }
+
+.btn-primary, .btn-primary:focus {
+  color: #ffffff;
+  background-color: #1da1f3;
+}
+
+.btn-secondary, .btn-secondary:focus {
+  background-color: #96a0ac;
+}
+
 .btn-outline-primary {
   border-radius: 30px;
 }
@@ -116,4 +132,52 @@ input { width: 100%; }
 
 small .Explore-light {
   line-height: 0.6;
+}
+
+.Modal {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  padding: 3%;
+  border-radius: 90px;
+  margin-left: 19%;
+  margin-right: 19%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  box-shadow: inset 0 0 15px 9px #1da1f388;
+  border: none;
+  background-color: #ffffff;
+  overflow: scroll;
+  overflow-x: hidden;
+  outline: none;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-right: 20%;
+  background-color: #1da1f388;
+  backdrop-filter: blur(4px);
+  z-index: 5000;
+  outline: none;
+}
+@media (max-width: 768px) {
+  .Navigation-footer {
+    position: inherit;
+  }
+  .Navigation-links {
+    margin: 0px !important;
+  }
+  .Modal {
+    top: 5px;
+    bottom: 5px;
+    padding: 3%;
+    border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
 }

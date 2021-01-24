@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="d-none d-md-block col-md-4">
+          <div className="col-md-4">
             <Navigation />
           </div>
           <div className="col-md-4">
@@ -21,7 +21,6 @@ class App extends Component {
           </div>
         </div>
       </div>
-
     );
   }
 }
