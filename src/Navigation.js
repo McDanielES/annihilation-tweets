@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import Curator from './Curator'
 
 class Navigation extends Component {
   render() {
     return(
       <div className="row sticky-top">
-        <div className="offset-6 col-5">
+        <div className="offset-lg-6 offset-md-4 col-lg-5 col-md-8 offset-2 col-8">
           <div className="row mb-4">
             <div className="col">
               <img src="icons/twitter-logo.png" className="Navigation-logo mt-4" alt="Twitter Logo" />
@@ -59,14 +60,7 @@ class Navigation extends Component {
             </div>
           </div>
           <button className="btn btn-primary mt-5"><strong>Tweet</strong></button>
-          <div className="row Navigation-links Navigation-footer">
-            <div className="col-1">
-              <i className="fas fa-book"></i>
-            </div>
-            <div className="col ml-2">
-              <a href="/"><strong>View Curator's Essay</strong></a>
-            </div>
-          </div>
+          <Curator />
         </div>
       </div>
     )
