@@ -1,4 +1,4 @@
-const data = './Test.csv'
+const data = './AnnihilationTweets.csv'
 const csv = require('csvtojson')
 const fs = require('fs');
 csv({
@@ -7,5 +7,5 @@ csv({
 .fromFile(data)
 .then((jsonObject) => {
     let jsonString = JSON.stringify(jsonObject, null, "  ");
-    fs.writeFileSync('./src/Test.json', jsonString);
+    fs.writeFileSync('./src/AnnihilationTweets.json', jsonString);
 })

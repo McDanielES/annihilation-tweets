@@ -1,6 +1,6 @@
 import React from 'react';
 import FakeTweet from 'fake-tweet';
-import data from './Test.json';
+import data from './AnnihilationTweets.json';
 
 let tweetConfiguration;
 

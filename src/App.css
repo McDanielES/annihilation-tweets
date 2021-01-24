@@ -134,6 +134,15 @@ small .Explore-light {
   line-height: 0.6;
 }
 
+.Curator-Essay {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+.Curator-Essay-paragraph {
+  text-indent: 50px;
+}
+
 .Modal {
   position: absolute;
   top: 40px;
